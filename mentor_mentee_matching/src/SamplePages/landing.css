@@ -1,0 +1,38 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3498db;
+}
+
+.login-logo {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    background-color: white;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-button:hover {
+    background-color: #fff;
+    opacity: 0.8;
+}
