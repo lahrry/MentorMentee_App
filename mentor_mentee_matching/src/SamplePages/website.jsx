@@ -18,7 +18,7 @@ const Website = () => {
                 <section className="welcome-section">
                     <h2>Welcome to the MentorMentee Dashboard</h2>
                     <p>This is your starting point to explore the application.</p>
-                    <p>hi! this is danielles testing paragraph</p>
+                    <p>hi! this is danielles testing paragraph!</p>
                 </section>
                 <section className="features-section">
                     <h2>Features Overview</h2>
