@@ -24,13 +24,13 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import Website from './SamplePages/website.jsx';
+import SignInPage from './SamplePages/signin.jsx';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Website />} /> 
+        <Route path="/" element={<SignInPage />} /> 
       </Routes>
     </Router>
   );
