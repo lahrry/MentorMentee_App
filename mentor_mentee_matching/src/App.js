@@ -24,13 +24,13 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import Website from './SamplePages/website.jsx';
+import SignUpPage from './SamplePages/signup.jsx';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Website />} /> 
+        <Route path="/" element={<SignUpPage />} /> 
       </Routes>
     </Router>
   );
