@@ -59,12 +59,12 @@ const SignUpPage = () => {
                         <input type="password" id="confirmPassword" placeholder="Re-enter your password" required />
                     </div>
                 </div>
+                <button type="submit" className="signup-button">Sign Up</button>
                 <div className="already-have">
                     <div className="already-have">
                         <Link to="/login">Already have an account?</Link>
                     </div>
                 </div>
-                <button type="submit" className="signup-button">Sign Up</button>
             </form>
             <img src={signupimg} alt="SignupIMG" className="signup-image" />
         </div>

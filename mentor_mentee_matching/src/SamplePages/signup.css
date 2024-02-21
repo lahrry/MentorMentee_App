@@ -34,20 +34,22 @@ html {
     position: relative;
     right: 0px;
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 
 .signup-header {
-    font-weight: normal;
+    font-weight: 300;
     font-family: "Noto Serif";
     margin-left: 20%;
+    margin-bottom: 0.15rem;
+    margin-top: -3rem;
 }
 
 
 .signup-text{
     margin-bottom: -1%;
-    margin-left: 31%;
+    margin-left: 26%;
     font-weight: 500;
 }
 
@@ -57,10 +59,10 @@ html {
     top: 100px; /* Adjust the top position as needed */
     display: flex;
     border: 1px solid #ccc;
-    border-radius: 15px;
+    border-radius: 8px;
     overflow: hidden;
     width: 400px; /* need this for button width*/
-    margin-top: 5%; 
+    margin-top: 3%; 
     margin-left: 50%;
 }
 
@@ -81,7 +83,8 @@ html {
 .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1rem;
 }
 
 
@@ -105,6 +108,11 @@ html {
     border-radius: 15px;
 }
 
+.input-group input[type="username"]::placeholder,
+.input-group input[type="password"]::placeholder {
+    color: #A5A5A5; /* Change placeholder color to desired color */
+}
+
 
 .signup-button {
     background-color: #3498db;
@@ -115,6 +123,7 @@ html {
     cursor: pointer;
     font-size: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .signup-button:hover {
@@ -122,6 +131,13 @@ html {
 }
 
 .already-have {
-    margin-left: 15%;
+    margin-left: 18%;
+    /* right: 300px; */
 
+}
+
+.already-have a {
+    color: black; /* Change link text color to black */
+    font: "Lato";
+    font-weight: 500;
 }
