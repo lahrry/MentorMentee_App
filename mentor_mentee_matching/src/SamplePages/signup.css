@@ -1,3 +1,7 @@
+html {
+    font-family: "Lato";
+}
+
 .signup-container {
     display: flex;
     position: absolute;
@@ -35,6 +39,8 @@
 
 
 .signup-header {
+    font-weight: normal;
+    font-family: "Noto Serif";
     margin-left: 20%;
 }
 
@@ -42,6 +48,7 @@
 .signup-text{
     margin-bottom: -1%;
     margin-left: 31%;
+    font-weight: 500;
 }
 
 .toggle-switch {
