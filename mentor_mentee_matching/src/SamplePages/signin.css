@@ -1,39 +1,15 @@
 .signin-container {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #ffffff;
-}
-.left-side {
-  flex: 1; /* Take up all available space */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.saigon-svg {
-  width: 136; /* Make the SVG fill the entire width of its container */
-  height: 400%; /* Maintain aspect ratio */
-}
-.saigon3-svg {
-  width: 100; /* Make the SVG fill the entire width of its container */
-  height: 500%; /* Maintain aspect ratio */
-}
-
-.right-side {
-  flex: 2;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
 .signin-header {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: "Noto Serif ExtraLight", serif;
 }
 
 .signin-logo {
@@ -46,7 +22,6 @@
   display: flex;
   flex-direction: column;
   width: 300px;
-  font-family: "Noto Serif ExtraLight", serif;
 }
 
 .input-group {
@@ -70,7 +45,6 @@
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  font-family: "Noto Serif ExtraLight", serif;
 }
 
 .signin-button:hover {
