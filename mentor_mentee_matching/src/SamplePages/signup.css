@@ -72,7 +72,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 
@@ -92,8 +91,6 @@
 .input-group input[type="username"],
 .input-group input[type="password"]{
     padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 15px;
     border: 1px solid #000000;
     border-radius: 15px;
 }
