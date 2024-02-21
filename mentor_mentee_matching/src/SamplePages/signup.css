@@ -45,12 +45,15 @@
 }
 
 .toggle-switch {
+    position: absolute;
+    right: 105px; /* Adjust the right position as needed */
+    top: 100px; /* Adjust the top position as needed */
     display: flex;
     border: 1px solid #ccc;
     border-radius: 15px;
     overflow: hidden;
-    width: 275px;
-    margin-top: 5%;
+    width: 400px; /* need this for button width*/
+    margin-top: 5%; 
     margin-left: 50%;
 }
 
