@@ -1,0 +1,3 @@
+{
+    "gitlens.blame.format": "${message|50?} ${agoOrDate|14-}"
+}
