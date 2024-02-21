@@ -1,11 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./signin.css";
-//<<<<<<< Updated upstream
 import saigonSVG from "../saigon.svg";
 import saigon3SVG from "../saigon3.svg";
-//=======
-//>>>>>>> Stashed changes
 
 const SignInPage = () => {
   const navigate = useNavigate();
