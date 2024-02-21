@@ -1,10 +1,33 @@
 .signin-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+}
+.left-side {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saigon-svg {
+  width: 136; /* Make the SVG fill the entire width of its container */
+  height: 400%; /* Maintain aspect ratio */
+}
+.saigon3-svg {
+  width: 100; /* Make the SVG fill the entire width of its container */
+  height: 500%; /* Maintain aspect ratio */
+}
+
+.right-side {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .signin-header {
