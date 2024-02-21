@@ -41,7 +41,7 @@
 
 .signup-text{
     margin-bottom: -1%;
-    margin-left: 30%;
+    margin-left: 31%;
 }
 
 .toggle-switch {
@@ -49,7 +49,7 @@
     border: 1px solid #ccc;
     border-radius: 15px;
     overflow: hidden;
-    width: 250px;
+    width: 275px;
     margin-top: 5%;
     margin-left: 50%;
 }
