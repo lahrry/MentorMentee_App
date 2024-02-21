@@ -1,14 +1,18 @@
-.saigon-svg{
-    width: 50%;
-    height:auto;
-}
 .signin-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+}
+.saigon-svg {
+  width: 136;
+  height: 400%;
+}
+.saigon3-svg {
+  width: 100;
+  height: 500%;
 }
 
 .signin-header {
