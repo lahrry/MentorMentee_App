@@ -2,18 +2,32 @@ html {
     font-family: "Lato";
 }
 
+
 .signup-container {
     display: flex;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0%;
+    top: 0%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100%; 
+    width: 100%;
     background-color: #ffffff;
 }
+
+.signupright-container{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;  
+}
+
 
 .signup-image {
     position: absolute;
@@ -25,6 +39,7 @@ html {
     object-fit: cover;
   }
 
+
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -34,8 +49,10 @@ html {
     position: relative;
     right: 0px;
     margin-left: 50%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
+
+
 
 
 .signup-header {
@@ -47,24 +64,28 @@ html {
 }
 
 
+
+
 .signup-text{
-    margin-bottom: -1%;
-    margin-left: 26%;
+    margin-bottom: 0%;
+    margin-left: 32%;
     font-weight: 500;
 }
 
+
 .toggle-switch {
-    position: absolute;
-    right: 105px; /* Adjust the right position as needed */
-    top: 100px; /* Adjust the top position as needed */
+    position: relative;
     display: flex;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     width: 400px; /* need this for button width*/
-    margin-top: 3%; 
+    margin-top: 1%;
+    margin-bottom: -1%;
     margin-left: 50%;
 }
+
+
 
 
 .toggle-switch button {
@@ -74,12 +95,13 @@ html {
     background-color: transparent;
     cursor: pointer;
     transition: background-color 0.3s;
-    
+   
 }
 .toggle-switch button.active {
     background-color: #3498db;
     color: white;
 }
+
 
 .form-row {
     display: flex;
@@ -87,6 +109,8 @@ html {
     /* margin-bottom: 1.5rem; */
     margin-bottom: 1rem;
 }
+
+
 
 
 .input-group {
@@ -97,9 +121,13 @@ html {
 }
 
 
+
+
 .input-group label {
     margin-bottom: 0.5rem;
 }
+
+
 
 
 .input-group input[type="username"],
@@ -109,10 +137,13 @@ html {
     border-radius: 15px;
 }
 
+
 .input-group input[type="username"]::placeholder,
 .input-group input[type="password"]::placeholder {
     color: #A5A5A5; /* Change placeholder color to desired color */
 }
+
+
 
 
 .signup-button {
@@ -127,15 +158,16 @@ html {
     margin-bottom: 1rem;
 }
 
+
 .signup-button:hover {
     opacity: 0.9;
 }
 
+
 .already-have {
     margin-left: 18%;
-    /* right: 300px; */
-
 }
+
 
 .already-have a {
     color: black; /* Change link text color to black */
