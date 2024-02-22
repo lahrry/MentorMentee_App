@@ -74,6 +74,7 @@ html {
     background-color: transparent;
     cursor: pointer;
     transition: background-color 0.3s;
+    
 }
 .toggle-switch button.active {
     background-color: #3498db;
