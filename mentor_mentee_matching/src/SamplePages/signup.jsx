@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './signup.css';
-import signupimg from "../signup-image.svg";
+import signupimg from "../signupimg2.png";
 import { Link } from 'react-router-dom'
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
