@@ -1,10 +1,21 @@
 //import React, { useState } from 'react';
 import './selfintro.css';
 import saigonlogo from "../saigonchildren_logo.png";
-//import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import React from 'react';
 
 
 const SelfIntro = () => {
+
+    const navigate = useNavigate(); //initialize useNagivate
+    
+    const navigateToBefore = () => {
+        navigate('/jobstatus'); 
+    };
+
+    const navigateToNext = () => {
+        navigate('/selfintro2'); 
+    };
 
     return (
         <div className="selfintro-container">
@@ -43,8 +54,8 @@ const SelfIntro = () => {
                         </div>
                     </div>
                     <div className="button-row">
-                        <button type="before" className="before-button">Before</button>
-                        <button type="next" className="next-button">Next</button>
+                        <button type="before" className="before-button" onClick={navigateToBefore}>Before</button>
+                        <button type="next" className="next-button" onClick={navigateToNext}>Next</button>
                     </div>
                 </form>
         </div>

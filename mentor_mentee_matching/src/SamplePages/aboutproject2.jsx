@@ -1,54 +1,49 @@
 //import React, { useState } from 'react';
-import './jobstatus.css';
+import './aboutproject2.css';
 import saigonlogo from "../saigonchildren_logo.png";
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 
 
-const JobStatus = () => {
+const AboutProject2 = () => {
+
     const navigate = useNavigate(); //initialize useNagivate
     
     const navigateToBefore = () => {
-        navigate('/signup'); 
+        navigate('/aboutproject'); 
     };
 
     const navigateToNext = () => {
-        navigate('/selfintro'); 
+        navigate('/scenarioquestions'); 
     };
 
     return (
-        <div className="jobstatus-container">
+        <div className="aboutproject2-container">
                 <img src={saigonlogo} alt="SaigonLogo" className="saigonlogo" />
-                <h1 className="jobstatus-header">Job Status</h1>
+                <h1 className="aboutproject2-header">About the Project</h1>
     
-                <form className="jobstatus-form">
-                    <label htmlFor="jobstatus">Do you currently have a job? (If not, skip this section):</label>
+                <form className="aboutproject2-form">
+                    <label htmlFor="aboutproject2">Have you participated in a similar project?</label>
                     <div className="checkbox-wrapper">
                         <label>
-                            <input type="radio" name="jobstatus" value="yes"/>
+                            <input type="radio" name="aboutproject2" value="yes"/>
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input type="radio" name="jobstatus" value="no"/>
+                            <input type="radio" name="aboutproject2" value="no"/>
                             <span>No</span>
                         </label>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="jobstatus">Job Position:</label>
-                            <textarea id="jobstatus" placeholder="Type your answer here" required />
+                            <label htmlFor="aboutproject2">Share your experience with the project (optional):</label>
+                            <textarea id="aboutproject2" placeholder="Type your answer here" required />
                         </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="jobstatus">Name of Workplace/Company:</label>
-                            <textarea id="jobstatus" placeholder="Type your answer here" required />
-                            </div>
-                    </div>
-                    <div className="form-row">
-                        <div className="input-group">
-                            <label htmlFor="jobstatus">Working Time:</label>
-                            <textarea id="jobstatus" placeholder="Type your answer here" required />
+                            <label htmlFor="aboutproject2">How would you rate your ability to commit and maintain weekly meetings with your mentor? (1-10)</label>
+                            <textarea id="aboutproject2" placeholder="Type your answer here" required />
                             </div>
                     </div>
                     <div className="button-row">
@@ -60,6 +55,6 @@ const JobStatus = () => {
     );
 }
 
-export default JobStatus;
+export default AboutProject2;
 
 

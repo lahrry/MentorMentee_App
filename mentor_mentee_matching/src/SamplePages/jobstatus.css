@@ -33,7 +33,7 @@ html {
     position: relative;
     right: 0px;
     /* margin-left: 50%; */
-    margin-top: 5%;
+    margin-top: 3%;
     font-family: 'gotham_roundedmedium';
 }
 
@@ -41,7 +41,7 @@ html {
     font-weight: 300;
     font-family: 'gotham_roundedmedium';
     /* margin-left: 20%; */
-    margin-bottom: 0.15rem;
+    margin-bottom: -1%;
     margin-top: -3rem;
     color: #3498db;
 }
@@ -55,17 +55,29 @@ html {
     color: black;
 }
 
-.input-group label {
-    margin-bottom: 0.5rem; /* Add spacing between label and input field */
+.input-group textarea {
+    width: 100%;
+    height: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box;
 }
-
 
 .form-row {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 1.5rem; */
     margin-bottom: 1rem;
     margin-bottom: 3%;
+}
+
+.checkbox-wrapper {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
 }
 
 .button-row {
@@ -119,13 +131,6 @@ html {
 
 .next-button:hover {
     opacity: 0.9;
-}
-
-.checkbox-wrapper {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    display: flex;
-    align-items: center;
 }
 
 
