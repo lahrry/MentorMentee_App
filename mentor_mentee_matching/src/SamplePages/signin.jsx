@@ -16,8 +16,8 @@ const SignInPage = () => {
   };
   return (
     <div className = "signin-container">
-      <div className = "singinright-container">
-        <h1 className = "singin-header">Log In</h1>
+      <div className = "signinright-container">
+        <h1 className = "signin-header">Log In</h1>
         <form className="signin-form" onSubmit={handleSubmit}>
          {" "}
           <div className = "form-row">
@@ -35,7 +35,7 @@ const SignInPage = () => {
          <button type="submit" className="signin-button">Log in</button> 
          <div className="createAccount">
                         <div className="createAccount">
-                            <p className = "needAccount">Need a Saigon Chuldren account? Create an account</p>
+                            <p className = "needAccount">Need a Saigon Children account? Create an account</p>
                         </div>
           </div>
        </form>
