@@ -16,8 +16,8 @@ const SignInPage = () => {
   };
   return (
     <div className = "signin-container">
-      <div className = "singinright-container">
-        <h1 className = "singin-header">Log In</h1>
+      <div className = "signinright-container">
+        <h1 className = "signin-header">Log In</h1>
         <form className="signin-form" onSubmit={handleSubmit}>
          {" "}
           <div className = "form-row">

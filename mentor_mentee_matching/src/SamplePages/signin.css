@@ -25,7 +25,7 @@ html {
     background-color: #ffffff;
 }
 
-.singinright-container{
+.signinright-container{
   display: flex;
   position: absolute;
   right: 0%;
@@ -101,10 +101,6 @@ html {
   margin-bottom: 0.5rem;
 }
 
-
-.signin-form label {
-  font-weight: bold;
-}
 
 .input-group input[type="email"],
 .input-group input[type="password"]{
