@@ -25,13 +25,13 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import SelfIntro from './SamplePages/selfintro.jsx';
+import SelfIntro2 from './SamplePages/selfintro2.jsx';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<SelfIntro />} /> 
+        <Route path="/" element={<SelfIntro2 />} /> 
       </Routes>
     </Router>
   );
