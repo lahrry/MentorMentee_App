@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./signin.css";
-import saigonSVG from "../saigon.svg";
-import saigon3SVG from "../saigon3.svg";
+import saigonPNG from "../saigon.png";
+import saigon2PNG from "../saigon2.png";
 
 const SignInPage = () => {
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ const SignInPage = () => {
       <div className="signin-header">
         {/* <img src="/path-to-your-logo.png" alt="Logo" className="signin-logo" /> */}
         {/* <h1>Log In</h1> */}
-        <img src={saigon3SVG} alt="Saigon3" className="saigon3-svg" />
+        <img src={saigon2PNG} alt="Saigon3" className="saigon3-svg" />
       </div>
       <form className="signin-form" onSubmit={handleSubmit}>
         {" "}
@@ -35,7 +35,7 @@ const SignInPage = () => {
         </button> */}
       </form>
       <div className2="newsignin-container">
-        <img src={saigonSVG} alt="Saigon" className="saigon-svg" />
+        <img src={saigonPNG} alt="Saigon" className="saigon-svg" />
       </div>
       {/* <img src={saigonSVG} alt="Saigon" className="saigon-svg" /> */}
     </div>
