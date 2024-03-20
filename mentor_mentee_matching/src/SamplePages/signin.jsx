@@ -33,6 +33,11 @@ const SignInPage = () => {
             </div>
          </div>
          <button type="submit" className="signin-button">Log in</button> 
+         <div className="createAccount">
+                        <div className="createAccount">
+                            <p className = "needAccount">Need a Saigon Chuldren account? Create an account</p>
+                        </div>
+          </div>
        </form>
       </div>
       <img src={signinimg} alt="SignupIMG" className="signup-image" />

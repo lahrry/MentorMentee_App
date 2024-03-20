@@ -36,6 +36,7 @@ html {
   height: 100%;
   width: 100%;  
 }
+
 .signin-image {
   position: absolute;
   left: 0px;
@@ -66,14 +67,6 @@ html {
     margin-bottom: 0.15rem;
     margin-top: -3rem;
     color: #000000;
-}
-
-.signin-text{
-  margin-bottom: 0%;
-  margin-left: 32%;
-  font-weight: 500;
-  font-family: 'gotham_roundedmedium';
-  color : #000000;
 }
 
 .form-row {
@@ -113,15 +106,44 @@ html {
   font-weight: bold;
 }
 
+.input-group input[type="email"],
+.input-group input[type="password"]{
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+
+.input-group input[type="email"]::placeholder,
+.input-group input[type="password"]::placeholder {
+    color: #A5A5A5; /* Change placeholder color to desired color */
+}
+
+
 .signin-button {
   background-color: #3498db;
   color: white;
-  padding: 10px;
+  padding: 15px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'gotham_roundedmedium';
 }
 
 .signin-button:hover {
   opacity: 0.9;
+}
+
+.needAccount {
+  margin-left: 18%;
+}
+
+
+.needAccount {
+  color: black; /* Change link text color to black */
+  font-family: 'gotham_roundedmedium';
+  font-weight: 500;
 }
