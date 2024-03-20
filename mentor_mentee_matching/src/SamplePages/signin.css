@@ -28,11 +28,12 @@ html {
 .signinright-container{
   display: flex;
   position: absolute;
-  right: 0%;
+  right: 0px;
   top: 0%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 50%;
   height: 100%;
   width: 100%;  
 }
@@ -68,6 +69,7 @@ html {
     margin-top: -3rem;
     color: #000000;
 }
+
 
 .form-row {
   display: flex;
@@ -139,7 +141,7 @@ html {
 
 
 .needAccount {
-  color: black; /* Change link text color to black */
+  color: black; 
   font-family: 'gotham_roundedmedium';
   font-weight: 500;
 }
