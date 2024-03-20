@@ -1,12 +1,42 @@
+@font-face {
+  font-family: 'gotham_roundedmedium';
+  src: url('gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
+       url('gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html {
+  font-family: 'gotham_roundedmedium';
+  font-weight:normal;
+  font-style:normal;
+  }
+
 .signin-container {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.singinright-container{
   display: flex;
-  flex-direction: row-reverse;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: #ffffff;
+  width: 100%;  
 }
-.saigon-png {
+.signin-image {
   position: absolute;
   left: 0px;
   width: 50%;
@@ -15,29 +45,42 @@
   margin-right: 50%;
   object-fit: cover;
 }
-.saigon2-png {
-  position: absolute;
-  right: 0px;
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
   width: 50%;
-  height: 100%;
-  padding: 0px;
+  height: 50vh;
+  position: relative;
+  right: 0px;
   margin-left: 50%;
-  object-fit: cover;
+  margin-top: 2%;
+  font-family: 'gotham_roundedmedium';
 }
-/*
-.saigon-svg {
-  width: 136;
-  height: 400%;
-}
-.saigon3-svg {
-  width: 100;
-  height: 500%;
-}
-*/
 
 .signin-header {
-  text-align: center;
-  margin-bottom: 2rem;
+  font-weight: 300;
+    font-family: 'gotham_roundedmedium';
+    margin-left: 20%;
+    margin-bottom: 0.15rem;
+    margin-top: -3rem;
+    color: #000000;
+}
+
+.signin-text{
+  margin-bottom: 0%;
+  margin-left: 32%;
+  font-weight: 500;
+  font-family: 'gotham_roundedmedium';
+  color : #000000;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1rem;
 }
 
 .signin-logo {
@@ -53,17 +96,21 @@
 }
 
 .input-group {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 0.5rem;
+  font-family: 'gotham_roundedmedium';
+  color: black;
 }
+
+.input-group label {
+  margin-bottom: 0.5rem;
+}
+
 
 .signin-form label {
   font-weight: bold;
-}
-
-.signin-form input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .signin-button {
