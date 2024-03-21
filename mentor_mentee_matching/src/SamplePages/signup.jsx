@@ -14,7 +14,7 @@ const SignUpPage = () => {
     const navigate = useNavigate(); //initialize useNagivate
     
     const navigateToNext = () => {
-        navigate('/jobstatus'); 
+        navigate('/personalinfo'); 
     };
 
     const handleButtonClick = (type) => {
