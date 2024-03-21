@@ -52,7 +52,7 @@ const SignUpPage = () => {
                         <div className="input-group">
                             <label htmlFor="username">Username</label>
                             <input type="username" id="username" placeholder="Create your username" required />
-                            </div>
+                        </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
