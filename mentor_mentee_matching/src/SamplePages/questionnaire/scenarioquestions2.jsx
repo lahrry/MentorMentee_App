@@ -14,7 +14,7 @@ const ScenarioQuestions2 = () => {
     };
 
     const navigateToNext = () => {
-        navigate('/website'); 
+        navigate('../Dashboard'); 
     };
 
     return (

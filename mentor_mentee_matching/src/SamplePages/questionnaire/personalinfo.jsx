@@ -2,56 +2,56 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import saigonlogo from "../../saigonchildren_logo.png";
-import './selfintro.css';
+import './personalinfo.css';
 
 
-const SelfIntro = () => {
-
+const PersonalInfo = () => {
     const navigate = useNavigate(); //initialize useNagivate
     
     const navigateToBefore = () => {
-        navigate('/jobstatus'); 
+        navigate('../signup'); 
     };
 
     const navigateToNext = () => {
-        navigate('/selfintro2'); 
+        navigate('/personalinfo2'); 
     };
 
     return (
-        <div className="selfintro-container">
+        <div className="personalinfo-container">
                 <img src={saigonlogo} alt="SaigonLogo" className="saigonlogo" />
-                <h1 className="selfintro-header">Self Introduction</h1>
+                <h1 className="personalinfo-header">Personal Information</h1>
     
-                <form className="selfintro-form">
+                <form className="personalinfo-form">
+        
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="selfintro">Introduce Yourself:</label>
-                            <textarea id="selfintro" placeholder="Type your answer here" required />
+                            <label htmlFor="personalinfo">Full Name:</label>
+                            <textarea id="personalinfo" placeholder="Type your answer here" required />
                         </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="selfintro">What are your hobbies?</label>
-                            <textarea id="selfintro" placeholder="Type your answer here" required />
+                            <label htmlFor="personalinfo">SaigonChildren ID:</label>
+                            <textarea id="personalinfo" placeholder="Type your answer here" required />
                             </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="selfintro">What is your favorite quote?</label>
-                            <textarea id="selfintro" placeholder="Type your answer here" required />
-                        </div>
+                            <label htmlFor="personalinfo">Phone Number:</label>
+                            <textarea id="personalinfo" placeholder="Type your answer here" required />
+                            </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="selfintro">What is your favorite film/movie?</label>
-                            <textarea id="selfintro" placeholder="Type your answer here" required />
-                        </div>
+                            <label htmlFor="personalinfo">Email:</label>
+                            <textarea id="personalinfo" placeholder="Type your answer here" required />
+                            </div>
                     </div>
                     <div className="form-row">
                         <div className="input-group">
-                            <label htmlFor="selfintro">What is your favorite book?</label>
-                            <textarea id="selfintro" placeholder="Type your answer here" required />
-                        </div>
+                            <label htmlFor="personalinfo">Current Address:</label>
+                            <textarea id="personalinfo" placeholder="Type your answer here" required />
+                            </div>
                     </div>
                     <div className="button-row">
                         <button type="before" className="before-button" onClick={navigateToBefore}>Before</button>
@@ -62,6 +62,6 @@ const SelfIntro = () => {
     );
 }
 
-export default SelfIntro;
+export default PersonalInfo;
 
 

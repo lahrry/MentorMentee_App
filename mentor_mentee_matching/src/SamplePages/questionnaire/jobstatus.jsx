@@ -9,7 +9,7 @@ const JobStatus = () => {
     const navigate = useNavigate(); //initialize useNagivate
     
     const navigateToBefore = () => {
-        navigate('../signup'); 
+        navigate('/personalinfo2'); 
     };
 
     const navigateToNext = () => {
