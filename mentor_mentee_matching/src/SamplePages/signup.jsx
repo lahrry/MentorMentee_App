@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import './signup.css';
 import signupimg from "../signupimg2.png";
 import { Link } from 'react-router-dom'
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
-</style>
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -13,7 +11,11 @@ const SignUpPage = () => {
     const [userType, setUserType] = useState(''); // State to store user type (mentor or mentee)
 
 
-
+    const navigate = useNavigate(); //initialize useNagivate
+    
+    const navigateToNext = () => {
+        navigate('/jobstatus'); 
+    };
 
     const handleButtonClick = (type) => {
       setUserType(type);
@@ -66,7 +68,7 @@ const SignUpPage = () => {
                             <input type="password" id="confirmPassword" placeholder="Re-enter your password" required />
                         </div>
                     </div>
-                    <button type="submit" className="signup-button">Sign Up</button>
+                    <button type="submit" className="signup-button" onClick={navigateToNext}>Sign Up</button>
                     <div className="already-have">
                         <div className="already-have">
                             <Link to="/login">Already have an account?</Link>
