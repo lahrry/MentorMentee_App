@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./signin.css";
 import signinimg from "../saigon.png";
+import "./signin.css";
 
 // import saigonPNG from "../saigon.png";
 // import saigon2PNG from "../saigon2.png";
@@ -12,7 +12,7 @@ const SignInPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Need to implement sign-in logic
-    navigate("/website");
+    navigate("/Dashboard");
   };
   return (
     <div className = "signin-container">
