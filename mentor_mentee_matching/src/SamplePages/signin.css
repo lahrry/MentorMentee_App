@@ -1,12 +1,44 @@
+@font-face {
+  font-family: 'gotham_roundedmedium';
+  src: url('gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
+       url('gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html {
+  font-family: 'gotham_roundedmedium';
+  font-weight:normal;
+  font-style:normal;
+  }
+
 .signin-container {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.signinright-container{
   display: flex;
-  flex-direction: row-reverse;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 50%;
   height: 100%;
-  background-color: #ffffff;
+  width: 100%;  
 }
-.saigon-svg {
+
+.signin-image {
   position: absolute;
   left: 0px;
   width: 50%;
@@ -15,29 +47,35 @@
   margin-right: 50%;
   object-fit: cover;
 }
-.saigon3-svg {
-  position: absolute;
-  right: 0px;
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
   width: 50%;
-  height: 100%;
-  padding: 0px;
+  height: 50vh;
+  position: relative;
+  right: 0px;
   margin-left: 50%;
-  object-fit: cover;
+  margin-top: 2%;
+  font-family: 'gotham_roundedmedium';
 }
-/*
-.saigon-svg {
-  width: 136;
-  height: 400%;
-}
-.saigon3-svg {
-  width: 100;
-  height: 500%;
-}
-*/
 
 .signin-header {
-  text-align: center;
-  margin-bottom: 2rem;
+  font-weight: 300;
+    font-family: 'gotham_roundedmedium';
+    margin-left: 20%;
+    margin-bottom: 0.15rem;
+    margin-top: -3rem;
+    color: #000000;
+}
+
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1rem;
 }
 
 .signin-logo {
@@ -53,28 +91,57 @@
 }
 
 .input-group {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 0.5rem;
+  font-family: 'gotham_roundedmedium';
+  color: black;
 }
 
-.signin-form label {
-  font-weight: bold;
+.input-group label {
+  margin-bottom: 0.5rem;
 }
 
-.signin-form input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
+.input-group input[type="email"],
+.input-group input[type="password"]{
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
 }
+
+
+.input-group input[type="email"]::placeholder,
+.input-group input[type="password"]::placeholder {
+    color: #A5A5A5; /* Change placeholder color to desired color */
+}
+
 
 .signin-button {
   background-color: #3498db;
   color: white;
-  padding: 10px;
+  padding: 15px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'gotham_roundedmedium';
 }
 
 .signin-button:hover {
   opacity: 0.9;
+}
+
+.needAccount {
+  margin-left: 18%;
+}
+
+
+.needAccount {
+  color: black; 
+  font-family: 'gotham_roundedmedium';
+  font-weight: 500;
 }
