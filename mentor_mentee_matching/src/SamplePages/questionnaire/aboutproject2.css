@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gotham_roundedmedium';
-    src: url('gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
-         url('gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
+    src: url('../gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
+         url('../gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,7 +12,7 @@ html {
     font-style:normal;
 }
     
-.selfintro-container {
+.aboutproject2-container {
     display: flex;
     position: absolute;
     right: 0%;
@@ -24,7 +24,7 @@ html {
     width: 100%;
     background-color: #ffffff;
 }
-.selfintro-form {
+.aboutproject2-form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -37,7 +37,7 @@ html {
     font-family: 'gotham_roundedmedium';
 }
 
-.selfintro-header {
+.aboutproject2-header {
     font-weight: 300;
     font-family: 'gotham_roundedmedium';
     /* margin-left: 20%; */
@@ -71,6 +71,13 @@ html {
     justify-content: space-between;
     margin-bottom: 1rem;
     margin-bottom: 3%;
+}
+
+.checkbox-wrapper {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
 }
 
 .button-row {

@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gotham_roundedmedium';
-    src: url('gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
-         url('gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
+    src: url('../gothamrounded/gothamrnd_medium-webfont.woff2') format('woff2'),
+         url('../gothamrounded/gothamrnd_medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,7 +12,7 @@ html {
     font-style:normal;
 }
     
-.aboutproject2-container {
+.scenarioquestions-container {
     display: flex;
     position: absolute;
     right: 0%;
@@ -24,7 +24,7 @@ html {
     width: 100%;
     background-color: #ffffff;
 }
-.aboutproject2-form {
+.scenarioquestions-form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -32,38 +32,17 @@ html {
     height: 50vh;
     position: relative;
     right: 0px;
-    /* margin-left: 50%; */
     margin-top: 3%;
     font-family: 'gotham_roundedmedium';
 }
 
-.aboutproject2-header {
+.scenarioquestions-header {
     font-weight: 300;
     font-family: 'gotham_roundedmedium';
     /* margin-left: 20%; */
     margin-bottom: -1%;
     margin-top: -3rem;
     color: #3498db;
-}
-
-.input-group {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0 0.5rem;
-    font-family: 'gotham_roundedmedium';
-    color: black;
-}
-
-.input-group textarea {
-    width: 100%;
-    height: 100%; 
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-    box-sizing: border-box;
 }
 
 .form-row {
@@ -76,8 +55,9 @@ html {
 .checkbox-wrapper {
     margin-top: 3%;
     margin-bottom: 3%;
-    display: flex;
+    display: grid;
     align-items: center;
+    font-size: 75%;
 }
 
 .button-row {

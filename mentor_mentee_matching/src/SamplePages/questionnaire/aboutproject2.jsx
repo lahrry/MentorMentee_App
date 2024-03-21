@@ -1,8 +1,8 @@
 //import React, { useState } from 'react';
-import './aboutproject2.css';
-import saigonlogo from "../saigonchildren_logo.png";
-import { useNavigate } from 'react-router-dom';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import saigonlogo from "../../saigonchildren_logo.png";
+import './aboutproject2.css';
 
 
 const AboutProject2 = () => {

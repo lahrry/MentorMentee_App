@@ -1,15 +1,15 @@
 //import React, { useState } from 'react';
-import './jobstatus.css';
-import saigonlogo from "../saigonchildren_logo.png";
-import { useNavigate } from 'react-router-dom';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import saigonlogo from "../../saigonchildren_logo.png";
+import './jobstatus.css';
 
 
 const JobStatus = () => {
     const navigate = useNavigate(); //initialize useNagivate
     
     const navigateToBefore = () => {
-        navigate('/signup'); 
+        navigate('../signup'); 
     };
 
     const navigateToNext = () => {
